@@ -13,4 +13,3 @@ resource "aws_subnet" "sub-01" {
     vpc_id = aws_vpc.multi.id
   
 }
-
