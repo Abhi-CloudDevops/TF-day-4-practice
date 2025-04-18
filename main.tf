@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "name" {
-    bucket = "tfstatefileee"
+    bucket = "wkbvnbsvkbkhdbvkh"
   
 }
 
@@ -10,6 +10,12 @@ resource "aws_vpc" "multi" {
 
 resource "aws_subnet" "sub-01" {
     cidr_block = "10.0.1.0/24"
+    vpc_id = aws_vpc.multi.id
+  
+}
+
+resource "aws_subnet" "sub-02" {
+    cidr_block = "10.0.2.0/24"
     vpc_id = aws_vpc.multi.id
   
 }

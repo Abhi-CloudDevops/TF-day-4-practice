@@ -1,7 +1,7 @@
-terraform {
-  backend "s3" {
-    bucket = "tfstatefileee"
-    key    = "path/terraform.statefile"
-    region = "ap-south-1"
-  }
-}
+# terraform {
+#   backend "s3" {
+#     bucket = "tfstatefileee"
+#     key    = "terraform.tfstate-1"
+#     region = "ap-south-1"
+#   }
+# }
